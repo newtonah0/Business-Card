@@ -5,8 +5,9 @@ body {
 
 .avatar {
     width: 150px;
+    border-right: 2px dotted rgba(11, 198, 231, 0.301);
+    border-left: 2px dotted #f1341350;
 }
-
 .card {
     width: 400px;
     margin: 0 auto;
@@ -14,11 +15,14 @@ body {
     display: flex;
     justify-content: space-around;
     text-align: center;
-    background: #ddebf8;
-    color: #2b2839;
-    border-bottom: 6px solid #d8cefe;
+    background: #000000;
+    color:  #d3e6f7;
+    border-bottom: 6px solid #40caec;
+    border-top: 6px solid #f13413;
+    border-radius: 10px;
 }
 
 .border-blue {
     border: 1px dotted blue;
 }
+
